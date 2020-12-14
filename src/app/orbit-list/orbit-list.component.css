@@ -4,6 +4,7 @@
 }
 
 .warning {
+    color: black;
     background-color: #ec106c;
 }
 
@@ -18,11 +19,16 @@ table {
 
 .header-row {
     background: #90e00f;
-    color: #fff
+    color: rgb(87, 85, 85);
 }
 
 th, td {
     text-align: left;
     margin: 5px 10px;
     padding: 6px;
+}
+
+tr:nth-child(even) {
+    color: rgb(87, 85, 85);
+    background: rgb(250, 233, 76)
 }
